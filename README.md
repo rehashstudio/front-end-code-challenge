@@ -1,29 +1,26 @@
-# Node/React/API - Challenge
+# Front End Code Challenge
 
 A coding assignment for prospective developers.
 
 ## Challenge Overview
 
-We would like for you to use this simple application as a base to improve upon.
+We would like for you to use this simple React/Next.js application as a base to improve upon. Feel free to spend as much or as little time as you'd like. **1 to 2 hours should suffice**. For this challenge, the real value is when we sit down together and discuss the decisions you made in the limited time; and what you would do given more time.
 
-For this challenge, the real value is when we sit down together and discuss your decisions, as well
-as areas you think could be improved upon.
+Do not hesitate to contact us with questions. We do not see this as a weakness. 
 
 ## Tasks
 
-1. Implement the style guide using JSX, CSS, and SASS.
+1. Implement the style guide (style_guide.png) using JSX, CSS, and SASS. Choose a target platform and browser (eg, "Windows desktop Chrome") to style against. Report your development platform when you submit your work.
 
-2. Connect to the Web Socket API using the environment variable WS_URL. Ping the server to maintain the connection. Present the 
+2. Connect to the WebSockets API using the environment variable WS_URL. Ping the server to maintain the connection. The default endpoint (`/`) will occassionally broadcast a message. Present this message where indicated in the code.
 
-3. Regularly ping the API's 'default' route to look for any changes in it's status. When the status changes, display them in the homepage.
+3. Fetch data from the API's 'getPeople' route. HINT: It is attached to "request.body.action". It will return a JSON string representing an array. Present this array where indicated in the code and according to the style guide.
 
-4. Fetch data from the API's 'getPeople' route. HINT: It is attached to "request.body.action". It will return a JSON string. Place the data into the homepage according to the styleguide.
-
-## Note
-
-Do not hesitate to contact us with questions; we do not see this as a weakness. Feel free to spend as much or as little time as you'd like. **1 to 2 hours should suffice**.
+4. Take cues from the project's folder structure 
 
 ## Getting Started
+
+##### (Optional) Fork this repository. Otherwise, clone and work locally.
 
 ##### Initialize project
 
@@ -41,3 +38,20 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+##### Publish to static web site
+
+```bash
+yarn export
+```
+
+##### Submit your work
+
+Please submit your work following one of the three options:
+* Zip the contents of your `out` directory and attach as an email.
+* Host the contents of your `out` directory anbd send us the URL.
+* Provide us the URL of your fork of this repo and let us know when it is complete.
+
+## Style Guide
+
+![alt Style Guide](https://github.com/rehashstudio/front-end-code-challenge/blob/main/style_guide.png?raw=true)
