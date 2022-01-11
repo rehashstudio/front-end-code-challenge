@@ -11,16 +11,8 @@ Do not hesitate to contact us with questions. We do not see this as a weakness.
 ## Tasks
 
 1. Implement the style guide (see below) using JSX, CSS, and SASS. Choose a target platform and browser (eg, "Windows desktop Chrome") to style against. Report your development platform when you submit your work.
-
 2. Connect to the WebSockets API using the environment variable `WS_URL`. Ping the server to maintain the connection. The default endpoint (`/`) will occassionally broadcast a message. Present this message where indicated in the code.
-
 3. Fetch data from the RESTful API using the `API_URL` environment variable. Look for a JSON string representing an array. Present this array where indicated in the code, and according to the style guide.
-
-## Hints
-
-* Prefer `yarn` to `npm`.
-* Take cues from the project's folder structure to organize code.
-* Avoid dependencies which are not already included in the project, if possible.
 
 ## Getting Started
 
@@ -48,6 +40,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```bash
 yarn export
 ```
+
+## Hints
+
+* Prefer `yarn` to `npm`.
+* Take cues from the project's folder structure to organize code.
+* Avoid dependencies which are not already included in the project, if possible.
 
 ##### Submit your work
 
