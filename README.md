@@ -43,6 +43,7 @@ yarn export
 
 ## Hints
 
+* Prefer VSCode to other development environments.
 * Prefer `yarn` to `npm`.
 * Take cues from the project's folder structure to organize code.
 * Avoid dependencies which are not already included in the project, if possible.
