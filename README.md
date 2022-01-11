@@ -10,7 +10,7 @@ Do not hesitate to contact us with questions. We do not see this as a weakness.
 
 ## Tasks
 
-1. Implement the style guide (style_guide.png) using JSX, CSS, and SASS. Choose a target platform and browser (eg, "Windows desktop Chrome") to style against. Report your development platform when you submit your work.
+1. Implement the style guide (see below) using JSX, CSS, and SASS. Choose a target platform and browser (eg, "Windows desktop Chrome") to style against. Report your development platform when you submit your work.
 
 2. Connect to the WebSockets API using the environment variable WS_URL. Ping the server to maintain the connection. The default endpoint (`/`) will occassionally broadcast a message. Present this message where indicated in the code.
 
