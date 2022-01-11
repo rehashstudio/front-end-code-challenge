@@ -12,15 +12,19 @@ Do not hesitate to contact us with questions. We do not see this as a weakness.
 
 1. Implement the style guide (see below) using JSX, CSS, and SASS. Choose a target platform and browser (eg, "Windows desktop Chrome") to style against. Report your development platform when you submit your work.
 
-2. Connect to the WebSockets API using the environment variable WS_URL. Ping the server to maintain the connection. The default endpoint (`/`) will occassionally broadcast a message. Present this message where indicated in the code.
+2. Connect to the WebSockets API using the environment variable `WS_URL`. Ping the server to maintain the connection. The default endpoint (`/`) will occassionally broadcast a message. Present this message where indicated in the code.
 
-3. Fetch data from the API's 'getPeople' route. HINT: It is attached to "request.body.action". It will return a JSON string representing an array. Present this array where indicated in the code and according to the style guide.
+3. Fetch data from the RESTful API using the `API_URL` environment variable. Look for a JSON string representing an array. Present this array where indicated in the code, and according to the style guide.
 
-4. Take cues from the project's folder structure 
+## Hints
+
+* Prefer `yarn` to `npm`.
+* Take cues from the project's folder structure to organize code.
+* Avoid dependencies which are not already included in the project, if possible.
 
 ## Getting Started
 
-##### (Optional) Fork this repository. Otherwise, clone and work locally.
+##### (Optional) Fork this repository. Otherwise, clone this repository and work locally.
 
 ##### Initialize project
 
