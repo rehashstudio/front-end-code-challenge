@@ -11,13 +11,13 @@ as areas you think could be improved upon.
 
 ## Tasks
 
+1. Implement the style guide using JSX, CSS, and SASS.
 
-
-2. Connect to the Web Socket API using the environment variable WS_URL.
+2. Connect to the Web Socket API using the environment variable WS_URL. Ping the server to maintain the connection. Present the 
 
 3. Regularly ping the API's 'default' route to look for any changes in it's status. When the status changes, display them in the homepage.
 
-4. Request data from the API's 'getPeople' route. HINT: It is attached to "request.body.action". It will return a JSON string. PLace the data into the homepage according to the styleguide.
+4. Fetch data from the API's 'getPeople' route. HINT: It is attached to "request.body.action". It will return a JSON string. Place the data into the homepage according to the styleguide.
 
 ## Note
 
