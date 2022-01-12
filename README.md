@@ -51,9 +51,9 @@ yarn export
 ##### Submit your work
 
 Please submit your work following one of the three options:
-* Zip the contents of your `out` directory and attach as an email.
-* Host the contents of your `out` directory anbd send us the URL.
-* Provide us the URL of your fork of this repo and let us know when it is complete.
+* Host the contents of your `out` directory and send us the URL.
+* Zip the contents of your `out` directory and attach in an email.
+* Provide us with the URL of your fork of this repo and let us know when it is ready to review.
 
 ## Style Guide
 
